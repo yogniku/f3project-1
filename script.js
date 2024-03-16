@@ -9,8 +9,7 @@ document.getElementById("decrement-btn").onclick=function name(params) {
         console.log(" ")
         message.classList.remove('hide')
     }
-   // message.classList.remove('hide')
-   // document.getElementById("countlabel").innerHTML=count;
+   
 }
 document.getElementById("increment-btn").onclick=function name(params) {
     count+=1;
@@ -20,6 +19,6 @@ document.getElementById("increment-btn").onclick=function name(params) {
 document.getElementById("clear-btn").onclick=function name(params) {
     count=0;
     document.getElementById("countlabel").innerHTML=count;  
-    message.classList.remove('hide')
+    message.classList.add('hide')
 }
 
