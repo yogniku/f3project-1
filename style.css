@@ -1,0 +1,30 @@
+body{
+    margin: 0%;
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+label{
+    color: rgb(143, 130, 130);
+}
+.Counter{
+    text-align: center;
+}
+button{
+    width:150px;
+    height: 40px;
+    font-size: large;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+#message{
+    color: red;
+}
+#clear-btn{
+background-color: rgb(165, 157, 157);
+}
+.hide{
+    display: none;
+}
